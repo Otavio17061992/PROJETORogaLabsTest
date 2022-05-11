@@ -8,5 +8,5 @@ const myObj = { a: { b: { c: 1, d: [1, { e: 2 }] } } };
 // });
 
 test("return true", () => {
-    expect(get(path, myObj)).toBe(2);
+    expect(get(path, myObj)).toBe(2); // testa o retorno  2 do meu myObj 
 });
